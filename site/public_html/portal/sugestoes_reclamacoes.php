@@ -108,7 +108,7 @@ A santa casa de adamantina disponibiliza o servi&ccedil;o de sugest&otilde;es e 
 <tr><td><textarea name="mensagem" id="mensagem" value="<?php $mensagem ?>" cols="45" rows="7" >Digite aqui sua mensagem</textarea></td></tr>
 
 <tr><td>
-<input  type="button" name="btenviar" id="botao_enviar" value="Enviar" onclick="enviar();" >
+<input  type="submit" name="btenviar" id="botao_enviar" value="Enviar" onclick="enviar();" >
 
 <input type="button" name="btncancelar" value="Cancelar" onClick="document.location='index.php?modulo=home';"  />
 </td></tr>
