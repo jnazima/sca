@@ -1,0 +1,289 @@
+/* CSS Document */
+body
+{
+	background-image:url(../Imagens/bodybg.jpg);
+	background-repeat:repeat-x;
+	 font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+  font-size:11px;
+}
+#tudo
+{
+    width:902px;
+	height:auto;
+	padding:0px;
+	background:#f3f3f3;
+	margin: 0 auto;/*aqui faz com que a div fique no centro da pagina*/
+
+}
+#div_conteudoTudo
+{
+	float:left;
+	padding-top:30px;
+	width:902px;
+	height:auto;/*aqui muda a o tamnho da minha div tudo */
+
+	
+}
+
+
+/*----------------------- Formulario Usuarios Ficha --------------------------------------------------------------------*/
+#div_usuario_nome
+{
+	width:600px;
+	height:30px;
+	background-color:#f3f3f3;
+	color:#000;
+	font-size:16px;
+	padding-top:10px;
+	padding-left:20px;
+}
+#div_usuario_tudo
+{
+	width:663px;
+	height:auto;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+#topo
+{
+	width:902px;
+	height:314px;
+}
+#topoImg
+{
+	background-image:url(../Imagens/top.jpg);
+	background-repeat:no-repeat;
+	width:902px;
+	height:52px;
+}
+p,table,tr,td
+{
+	color:#000;
+}
+#conteudo,center,a
+{
+text-decoration:none;
+color:#776455;
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+
+}
+/*------------------------------------------------------------------------------------------------*/
+
+
+
+#nomePrincipal
+{
+	float:left;
+	padding-left:170px;
+	padding-top:140px;
+	
+
+}
+/*---------------------------------------------------------------------------------------------*/
+#div_info_horizontal 
+{
+float:left;
+	height:15px;
+	width:350px;
+	padding-left:5px;
+	padding-top:5px;
+	clear:both;/* aqui nada vai flutuar*/
+	background-color:#f3f3f3;
+	color:#000000;
+	font-size:9px;
+	text-align:left;
+		font-size:12px;	
+}
+
+#div_data_usuario
+{
+	height:auto;
+	width:902px;
+}
+#div_nome_area_administrativa
+{
+float:left;
+	height:15px;
+	width:242px;
+	background-color:#f3f3f3;
+	padding-top:5px;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:12px;
+}
+#organizar
+{
+	float:left;
+	height:15px;
+	width:300px;
+	/*padding-left:0px;*/
+	padding-right:5px;
+	padding-top:5px;
+	text-align:right;
+	background-color:#f3f3f3;/*aqui da a cor ao div organizar*/
+	color:#000;
+	font-size:12px;
+}
+#logo
+{
+	width:902px;
+	height:262px;
+	background-image:url(../Imagens/header.jpg);
+}
+
+#menuHorizotal
+{
+	background-image:url(../Imagens/menu.jpg);
+	width:902px;
+	height:28px;
+}
+
+.titulo_conteudo {
+	font-weight:bold;
+	font-size:12px;
+	border-bottom:1px solid #000000;
+	width:100%;
+	
+}
+
+input, select, textarea {	
+	padding-left: 4px;
+	border: 1px solid #CCCCCC;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000;
+	background-color: #ebecf1;
+	text-decoration: none;
+}
+#div_conteudo {
+	float:left;
+	background-color:#f3f3f3;
+	width:653px;
+	padding-top:35px;/*mudei*/
+	padding-left:10px;
+	padding-right:5px;
+	padding-bottom:5px;
+	line-height:17px;
+	/*background:url(../imagens/conteudo2.jpg) no-repeat #cedae2;
+	*/
+	-moz-border-radius: 8px;
+	margin-top:5px;
+	margin-left:2px;
+	margin-bottom:3px;
+
+}
+
+
+
+/*----------------- menu ------------------------*/
+
+
+#menuTudo
+{
+	width:190px;
+	height:auto;
+	float:left;
+	padding-top:10px;
+	
+}
+#menuimagem
+{
+	background-image:url(../Imagens/menu_home_adm.png);
+	background-repeat:no-repeat;
+	width:190px;
+	height:37px;
+	
+	
+}
+
+#div_menu
+{
+	float:left;
+	height:auto;
+	width:186px;
+	margin-left:22px;
+	margin-right:5px;
+	margin-top:0px;
+	
+}
+
+.menu {	
+	margin:10px 0 0 2px;
+	list-style:none;
+	padding:0;
+	margin:0px;
+}
+
+.menu li a  {
+	BORDER-BOTTOM: #e2e2e2 1px solid;
+	LINE-HEIGHT: 25px;
+	BACKGROUND-COLOR: #f9f9f9; 
+	TEXT-INDENT: 5px;
+	WIDTH: 100%;
+	FONT-FAMILY: verdana;
+	FLOAT: left;
+	HEIGHT: 27px;
+	COLOR: #000;
+	FONT-SIZE: 11px; 
+	TEXT-DECORATION: none;
+}
+
+
+.menu li a:hover 
+{	/*aqui faz o efeito no meu*/
+	 position:relative; 
+	/*background-color:#eeeeee; */
+	color:#999;/* aqui muda as cores do menu*/
+	text-decoration:underline;
+	border:0px;
+	border-bottom:1px solid;
+	border-bottom-color:#ccc;
+	padding:0px;
+	
+	
+	/*
+	BORDER-BOTTOM: #b5b4b4 1px solid;
+      POSITION: relative; 
+      BORDER-LEFT: 0px;
+      PADDING-BOTTOM: 0px;
+      BACKGROUND-COLOR: #e2e2e2;
+      PADDING-LEFT: 0px;
+	  PADDING-RIGHT: 0px; 
+	  text-decoration:underline;
+	  COLOR: #000; 
+	  BORDER-TOP: #b5b4b4 0px solid; 
+	  BORDER-RIGHT: 0px;
+	  TEXT-DECORATION: none;
+	  PADDING-TOP: 0px*/
+}
+
+/*--------------------------------------------*/
+#rodape
+{
+	clear:both;
+	background-color:#ccc;
+	height:30px;
+	width:897px;;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:left;
+	vertical-align:middle;
+	position:inherit;
+	padding-left:5px;
+	padding-top:2px;
+}
+#div_login
+{
+	
+	width:450px;
+	height:15px;
+	margin: 0 auto;/*aqui faz com que a div fique no centro da pagina*/
+
+	
+}
+
+/*-----------------  aqui tira a borda emvolta dos botoes de alteracao exclusao e inclusao -----*/
+a,img{
+	border:none;
+}

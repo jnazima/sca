@@ -1,0 +1,576 @@
+body, td, th {
+  font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+  font-size:11px;
+ /* margin:0px;*/
+  background-image:url(../Imagens/bodybg.jpg);
+  background-repeat:repeat-;
+  }
+  
+#div_tudo
+{
+	width:902px;
+	height:auto;
+	margin:auto;
+	background-color:#ffffff;
+}
+/*---------------------------------------------------*/
+#div_titulo 
+{
+	/*background-image:url(../Imagens/header.jpg);
+	background-repeat:no-repeat;*/
+	width:902px;
+	height:262px;
+	background-color:#ffffff;
+}
+
+/*#top
+{
+	background-image:url(../Imagens/top.png);
+	background-repeat:no-repeat;
+	width:902px;
+	height:32px;
+}*/
+
+#div_imagem_menu_Horizotal
+{
+	width:902px;
+	height:18px;
+	background-image:url(../Imagens/menu.png);
+	background-repeat:no-repeat;	
+}
+
+#div_menu 
+{
+	float:left;
+	height:auto; 
+	width:186px;
+	margin-left:22px;
+	margin-right:5px;
+	margin-top:0px;
+	background-color:#FFF;
+}
+/*===================================*/
+#div_organiza_form
+{
+	width:902px;
+	height:auto;/*aqui aumenta a div do conteudo total*/
+	margin-top:0px;
+	padding-bottom:0px;
+}
+#div_conteudoTudo
+{
+	float:left;
+	width:902px;  /*mudei*/
+	height:auto; /*438*/
+	background-color:#ffffff;
+	padding-top:0px;
+}
+#div_conteudo {
+	float:right;
+	background-color:#ffffff;;
+	width:670px;  /*mudei 653*/
+	height:auto;
+	padding-left:10px;
+	padding-right:5px;
+	line-height:17px;
+	-moz-border-radius:8px;
+	margin-top:0px;
+	margin-left:2px;
+	margin-bottom:3px;
+}
+/*=====================================*/
+#div_rodape
+{
+	clear:both;
+	height:202px; /*auto*/
+	width:902px;
+	background-color:#fafafa;
+	padding-bottom:0px;
+	margin-bottom:inherit;
+}
+/*==================================================*/
+#link_uteis_tudo
+{
+	float:left;
+	width:902px;
+	height:auto;
+	background-color:#fafafa;
+	padding-top:10px;
+	padding-bottom:50px;	
+}
+#link_uteis_primeiro 
+{
+	float:left;
+	width:260px;
+	height:100px;
+	padding-top:0px;
+	padding-bottom:10px;
+	font-size:16px;
+	margin-left:50px;
+	/*border-right:solid 1px #000;*/
+}
+#link_uteis_primeiro li 
+{
+	list-style-image:url(../Imagens/links%20uteis.png);
+	padding-top:3px;
+}
+#link_uteis_primeiro li a
+{
+	font-size:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+/*-----------------------------------------------------------*/
+#link_uteis_segundo
+{
+	float:left;
+	width:100px; /*299*/
+	height:100px;
+	padding-top:5px;
+	padding-bottom:10px;
+	background-image:url(../Imagens/cebas.png);
+	background-repeat:no-repeat;
+	margin-left:35px;
+	margin-bottom:1px;
+}
+/*#link_uteis_segundo li 
+{
+	list-style-image:url(../Imagens/links%20uteis.png);
+	padding-top:3px;
+}
+#link_uteis_segundo li a
+{
+	font-size:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+/*------------------------------------*/
+#link_uteis_terceiro
+{
+	float:left;
+	width:157px; /*231*/
+	height:100px;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+#link_uteis_terceiro li 
+{	
+	list-style-image:url(../Imagens/links%20uteis.png);
+	padding-top:3px;
+}
+#link_uteis_terceiro li a
+{
+	font-size:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+/*=====================================================*/
+.titulo_conteudo 
+{
+	font-weight:bold;
+	font-size:12px;
+	border-bottom:1px solid #ccc;
+	width:100%;
+}
+
+img { border:none; }
+
+input, select, textarea {	
+	padding-left: 4px;
+	border: 1px solid #CCCCCC;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000;
+	background-color: #ebecf1;/*aqui muda a cor de fundo dos campos*/
+	text-decoration: none;
+	border-color:#999;
+}
+/*----------------- menu ------------------------*/
+#menuTudo
+{
+	width:190px;
+	height:auto;
+	float:left;
+	padding-top:10px;	
+}
+#menuimagem
+{
+	background-image:url(../Imagens/menu_home_2.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:24px;
+	font-size:16px;
+	color:#fff;
+	padding-left:40px;
+	padding-top:14px;		
+}
+#div_menu
+{
+	float:left;
+	height:auto;
+	width:186px;
+	margin-left:22px;
+	margin-right:5px;
+	margin-top:18px; /*era 0*/
+}
+/*------------------------------efeito no menu ----------------------------------*/
+	a.link_menu:link
+	{
+		color:#000;
+		text-decoration:none;
+		font-weight:normal; 
+		font-family: Verdana, Geneva, sans-serif;
+		font-size:14px; 
+		
+	}
+	a.link_menu:visited
+	{
+	color:navy;
+	text-decoration:none; 
+	font-weight:normal;
+	font-family:arial; 
+	font-size:14px;
+	}	
+	
+	/*a.link_menu:hover{color:#999;text-decoration:underline;font-weight:bold;font-family:arial;font-size:14px;}
+*/
+	.titulo_menu
+	{	   
+	    background-color:#ffffff;
+		background-image:url(none);
+		text-decoration:none;
+		color:#999;
+		width:183px;
+		height:20px;
+		border-right:solid 1px #ccc; padding-left:10px; padding-right:10px; float:left;
+		border-left:solid 1px #ccc; padding-right:10px; padding-left:10px;
+		border-top:solid 1px #ccc; padding-top:0px; padding-bottom:10px;
+		border-bottom:solid 1px #ccc; padding-bottom:0px; padding-top:10px;
+		padding: 5px 0px 0px 5px;
+	}
+	a.link_smenu:link
+	{
+		color:#000;
+		text-decoration:none;
+		font-weight:normal;
+		font-family:arial;
+		font-size:12px;
+	}
+	a.link_smenu:visited
+	{
+		color:#000; 
+		text-decoration:none;
+		font-weight:normal;
+		font-family:arial;
+		font-size:12px;
+	}
+	a.link_smenu:hover
+	{
+		color:#000;
+		text-decoration:underline;
+		font-weight:lighter;
+		font-family:arial;
+		font-size:12px;
+	}
+	.itens_menu
+	{
+	   background-color:#ffffff;
+		background-image:url(none);
+		width:169px;
+		height:20px;
+		border-right:solid 1px #ccc; padding-left:10px; padding-right:10px;
+		border-left:solid 1px #ccc; padding-right:10px; padding-left:10px;
+		border-top:solid 1px #ccc; padding-top:10px; padding-bottom:10px;
+		border-bottom:solid 1px #ccc; padding-bottom:10px; padding-top:10px;
+	}	
+	.titulo_menu,a
+	{
+		text-decoration:none;
+		color:#000;
+		font-size:14px;
+	}
+	.titulo_menu a:hover
+	{
+	    color:#000;
+	}
+	.titulo_menu a:hover
+	{
+		color:#999;
+	}
+	
+/*-----------------------aqui é o css da home ------------------------*/
+/*------------- div noticias -------------------------*/
+#caixa {
+	BACKGROUND-COLOR:#eeeeee;
+	WIDTH:200px;
+	HEIGHT:325px;
+	OVERFLOW: hidden; 
+}
+#marquee
+{
+	BACKGROUND-COLOR:#eeeeee;
+	WIDTH:179px;
+	margin-left:5px;
+}
+.noticia
+{
+float:left;
+TEXT-ALIGN: left; 
+PADDING-BOTTOM: 0px;
+LINE-HEIGHT: 25px; 
+BACKGROUND-COLOR: #eeeeee;
+LIST-STYLE-TYPE: none; 
+TEXT-INDENT: 5px;
+MARGIN:3px 0px 0px;
+PADDING-LEFT:5px; 
+WIDTH: 200px;
+PADDING-RIGHT:5px;
+FONT-FAMILY: verdana;
+COLOR: #000; 
+FONT-SIZE: 11px; /*aqui altera o tamanho da font da noticia*/
+BORDER-TOP: #fff 1px solid;
+LIST-STYLE-IMAGE: none;
+PADDING-TOP: 0px
+}
+A
+{
+	TEXT-DECORATION: none;
+}
+#div_noticia_tudo
+{
+	margin-top:0px;
+	margin-right:5px;
+	width:158px; /*200*/
+	height:184px; /*413*/
+	float:right;
+	background-color:#FFF;
+	/*padding-left:6px;*/
+}
+
+#div_imagem_nota
+{
+	background-image:url(../Imagens/nota_fiscal.png);
+	background-repeat:no-repeat;
+	margin-top:70px;
+	width:158px;
+	height:184px;
+	margin-left:512px;
+}
+
+/*#div_imagem_noticia
+{
+	width:158px;/*200 
+	height:auto; /*35 
+	background-image:url(../Imagens/b_noticias.png);
+	background-repeat:no-repeat;
+	color:#FFF;
+	/*font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-left:55px;
+	padding-top:0px;
+}*/
+/*#div_rodape_noticia_imagem
+{
+	width:200px;
+	height:20px;
+	background-image:url(../Imagens/noticia_rodape.png);
+	background-repeat:no-repeat;
+	padding-bottom:0px;
+}*/
+#div_home_tudo
+{
+	width:658px;
+	height:430px;
+}
+#div_rodape_home
+{
+	width:653px;
+	height:auto;
+	padding-left:5px;
+	text-align:justify;
+}
+/*-----------------------------------div imagens ---------------------------------*/
+
+#coin-slider-tudo
+{
+	float:left;
+	width:472px; /*447*/
+	height:418px;
+	padding-top:20px;
+	background-image:url(../Imagens/SlideImagens/bg_slide.png);
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+#coin-slider { width: 400px; margin:auto;} /*400*/
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+
+.coin-slider a{ text-decoration:none; outline:none; border: none; }/* aqui faz alteracao dos links next e prev*/
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 0px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+
+.cs-title { width: 380px; height:70px; padding: 10px; background-color: #000000; color: #FFFFFF; }/*aqui altera a div com o title o tamanho e a largura */
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+
+/*------------------------------------------- modulo curriculum --------------------------------------------*/
+#div_curriculum_tudo
+{
+	width:655px;
+	height:auto;
+	margin-top:10px;
+}
+#div_curriculum_nome
+{
+	width:650px;
+	height:25px;
+	padding-top:5px;
+	background-color:#ccc;
+	padding-left:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	margin-bottom:15px;
+}
+#divCidade
+{
+	width:162px;
+	height:auto;
+}
+#div_curriculum_tudo,table,tr,td/* aqui fica o style das tabelas*/
+{
+	background:none;
+	width:auto;
+	height:auto;
+	padding-left:5px;
+	padding-top:0px;
+	padding-bottom:1%;
+}
+td a /*aqui cuido dos links de busca cep*/																																										{																																													  	font-size:12px;																																										 	color:#03F;																																													}   
+/*-------------------------------- modulo cadastrar curriculum ----------------------------------*/
+#div_curriculumtudo
+{
+	width:660px;
+	height:auto;
+	padding-bottom:10px;
+	padding-top:30px;
+}
+
+#div_curriculumnome
+{
+	width:660px;
+	height:25px;
+	background-color:#dedede;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	padding-top:5px;
+	color:#000;
+}
+#div_org_forms
+{
+	width:658px;
+	height:200px;
+	background-color:#f3f3f3;
+	padding-top:30px;
+	border-bottom:solid 1px #dedede; 
+	border-left:solid 1px #dedede; 
+}
+table,tr,td
+{
+	background:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+#div_mensagem
+{
+	width:650px;
+	height:auto;
+	color:#F00;	
+}
+#div_mensagem ul li
+{
+	margin-top:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding-left:10px;
+	text-align:left;
+}
+#btn_avancar
+{
+	width:650px;
+	height:20px;	
+	padding-top:20px;
+	text-align:center;
+}
+#div_mensagemErro_Email{
+	font-weight:bold;
+	color:#ff0000;
+	 vertical-align:middle; 
+	 text-align:center; 
+	 background-color:#ebecf1;
+	 width:650px;
+	height:25px;
+}
+#div_explicacao
+{
+	width:618px;
+	height:auto;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	padding-top:20px;
+	font-size:12px;
+	color:#000;
+	border-left:solid 1px #dedede;	
+}
+#div_home_conteudo
+{
+	width:658px;
+	height:100px;
+	padding-top:50px;
+	padding-bottom:10px;
+}
+#div_bercario_virtual
+{
+	float:left;
+	width:325px;
+	height:100px;
+	border-right: solid 1px #CCC;
+}
+#div_educasus
+{
+	float:left;
+	width:315px;
+	height:100px;
+	padding-left:10px;
+
+}
+#div_certificado /*Essa div é responsável pela certificação CEBAS*/
+{
+	clear:both;
+	height:105px;
+	width:902px;
+	background-color:#fafafa;
+	padding-bottom:0px;
+	margin-bottom:inherit;
+}
+#div_imagem_certificado /*Essa div insere a imagem de certificação do CEBAS*/
+{
+	height:100px;
+	width:200px;
+	/*padding-bottom:5px;*/
+	padding-top:5px;
+	background-color:#fafafa;
+	background-image:url(../Imagens/cebas.png);
+	background-repeat:no-repeat;
+	margin-left:22px;
+}
+

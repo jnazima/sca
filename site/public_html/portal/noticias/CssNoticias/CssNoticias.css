@@ -1,0 +1,272 @@
+/* --------------------------------------------------------------------------------------------*/
+body, td, th 
+{
+  font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+  font-size:11px;
+  background-image:url(../Imagens/bodybg.jpg);
+  background-repeat:repeat-x;
+}
+/* --------------------------------------------------------------------------------------------*/
+
+#div_tudo {
+	width:902px;
+	margin:auto;
+	background-color:#f3f3f3;
+}
+/* --------------------------------------------------------------------------------------------*/
+#div_titulo 
+{
+	background-image:url(../Imagens/header.jpg);
+	width:902px;
+	height:262px;
+}
+/* --------------------------------------------------------------------------------------------*/
+#top
+{
+	background-image:url(../Imagens/top.jpg);
+	background-repeat:no-repeat;
+	width:902px;
+	height:52px;
+}
+/* --------------------------------------------------------------------------------------------*/
+#div_imagem_menu_Horizotal {
+	width:902px;
+	height:28px;
+	background-image:url(../Imagens/menu.jpg);
+	background-repeat:no-repeat;
+}
+/* --------------------------------------------------------------------------------------------*/
+#div_conteudo
+{
+	width:902px;
+	height:auto;/*aqu faz com que a div fique grande ou menor */
+	background-color:#f3f3f3;
+	padding-top:15px;
+	
+}
+
+
+/* --------------------------------------------------------------------------------------------*/
+
+#div_rodape 
+{
+	clear:both;
+	background-color:#ccc;
+	height:27px;
+	width:897px;;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:left;
+	vertical-align:middle;
+	position:inherit;
+	padding-left:5px;
+	padding-top:2px;
+}
+/* --------------------------------------------------------------------------------------------*/
+input, select, textarea {	
+	padding-left: 4px;
+	border: 1px solid #CCCCCC;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000;
+	background-color: #ebecf1;/*aqui muda a cor de fundo dos campos*/
+	text-decoration: none;
+	border-color:#999;
+}
+/*
+ ------ modulo home -------------------------------------------------------------------*/
+#div_noticia_destaque_tudo
+{
+	float:left;
+	background-color:#f3f3f3;
+	width:860px;
+	height:auto;
+	padding-top:0px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+    border-bottom:solid 2px #eeecec; 
+	border-left:solid 2px #eeecec; 
+}
+#div_titulo_noticias_destaque
+{
+	width:850px;
+	height:30px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-weight:bold;
+	font-size:14px;
+	color:#099;
+	background-image:url(../Imagens/noticia_destaque.png);
+	background-repeat:no-repeat;
+	
+}
+#div_noticia_destaque_imagem
+{
+	float:left;
+	width:250px;
+	height:auto;
+	margin-left:10px;
+	background-color:#f3f3f3;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+#div_nome_destaque
+{
+	width:579px;
+	height:10px;
+	color:#0000FF;
+	text-align:left;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:blink;/*aqui é responsavel por piscar a letra de destaque */
+	padding-left:10px;
+	
+	padding-top:10px;
+	padding-bottom:15px;
+	margin-left:10px;
+}
+#div_conteudo_destaque_tudo
+{
+	float:left;
+	width:599px;
+	height:188px;
+}
+#div_conteudo_destaque_titulo
+{
+	width:582px;
+	height:auto;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding-left:7px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	line-height:180%;
+}
+#div_conteudo_destaque_subtitulo
+{
+	float:left;
+	width:584px;
+	height:auto;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:16px;
+	color:#000000;
+	line-height:180%;	
+}
+#div_link_noticia_destaque
+{
+	float:left;
+	width:584px;
+	height:auto;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+	
+}
+#div_link_noticia_destaque a /*link da noticia em destaque com a cor azul e sem o sublinhado*/
+{
+	color:#00F;
+	 text-decoration:none;
+	 font-size:14px;	
+}
+/*-------------------------------------------------------------------*/
+#div_tudo_noticias_ver
+{
+	float:left;
+	width:882px;
+	height:auto;
+	padding-left:20px;
+	padding-top:10px;
+}
+#div_nome_resumo_noticias
+{
+	width:852px;
+	height:30px;
+	margin-bottom:10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#096;
+	padding-left:10px;
+	padding-top:5px;
+	background-image:url(../Imagens/Resumo%20de%20noticias.png);
+	background-repeat:no-repeat;
+}
+#div_noticia_ver_divide
+{
+	float:left;
+	background-color:#eeecec;
+	width:123px;
+	height:250;
+	border-bottom:solid 1px #CCC; 
+	border-left:solid 1px #CCC;
+	margin-left:17px;/*aqui muda o espassamento das imagems entre uma imageme outra*/
+	margin-bottom:15px;
+}
+#div_noticia_imagem_ver
+{
+	float:left;
+	width:121px;
+	height:auto;
+	margin-bottom:10px;
+	
+}
+#div_titulo_ver_noticias
+{
+	width:123px;
+	height:auto;
+	font-size:10px;
+	margin-top:3px;
+	padding-bottom:5px;
+	text-align:center;
+	
+	
+}
+#div_link_noticias
+{
+	float:left;
+	width:114px;
+	height:auto;
+	padding-top:10px;
+	
+	padding-left:3px;
+	
+}
+#div_link_noticias a
+{
+	float:left;
+	
+	padding-left:3px;
+	padding-bottom:10px;
+	color:#666;
+	font-size:12px;
+ 	text-decoration:none;
+}
+#div_erro_totalderegistros
+{
+	float:left;
+	width:882px;
+	height:auto;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#ebebeb;
+	font-size:12px;
+	text-align:center;
+	
+}
+/*--------------------------------------------------------------------------------------*/
+
+

@@ -1,0 +1,57 @@
+.gk_is_wrapper-style1 {
+	POSITION: relative; OVERFLOW: hidden
+}
+.gk_is_wrapper-style1 .gk_is_image {
+	POSITION: relative; DISPLAY: block; OVERFLOW: hidden
+}
+.gk_is_wrapper-style1 .gk_is_text_bg {
+	Z-INDEX: 95; POSITION: absolute; WIDTH: 100%; LEFT: 0px
+}
+.gk_is_wrapper-style1 .gk_is_text {
+	Z-INDEX: 96; POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 10px; COLOR: #fff; PADDING-TOP: 0px
+}
+.gk_is_wrapper-style1 .gk_is_thumbs {
+	
+}
+.gk_is_wrapper-style1 .gk_is_preloader {
+	Z-INDEX: 1000; POSITION: absolute; WIDTH: 100%; BACKGROUND: url(../../images/style1/variation1/loader.gif) #efefef no-repeat center center; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.gk_is_wrapper-style1 .gk_is_text_data {
+	DISPLAY: none
+}
+.gk_is_wrapper-style1 .gk_is_thumb {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; DISPLAY: block; FLOAT: left; BORDER-TOP: #ddd 1px solid; CURSOR: pointer; BORDER-RIGHT: #ddd 1px solid
+}
+.gk_is_wrapper-style1 .active {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+.gk_is_wrapper-style1 .gk_is_slide {
+	POSITION: absolute; TOP: 0px; LEFT: 0px
+}
+.gk_is_wrapper-style1 .gk_is_text H4 {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+.gk_is_wrapper-style1 .gk_is_text P {
+	
+}
+.gk_is_wrapper-style1 .gk_is_text A {
+	COLOR: #eee
+}
+.gk_is_wrapper-style1 .gk_is_text A:hover {
+	COLOR: #fff
+}
+.gk_is_wrapper-style1 .gk_is_text P A {
+	BORDER-BOTTOM: 1px dashed
+}
+.gk_is_wrapper-style1 .gk_is_text P A:hover {
+	TEXT-DECORATION: none
+}
+.is_style1-tip {
+	BORDER-BOTTOM: #57afdc 1px solid; BORDER-LEFT: #57afdc 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND: #fff; BORDER-TOP: #57afdc 1px solid; BORDER-RIGHT: #57afdc 1px solid; PADDING-TOP: 3px
+}
+.is_style1-text {
+	COLOR: #3a3a3a
+}
+.is_style1-text SPAN {
+	
+}
