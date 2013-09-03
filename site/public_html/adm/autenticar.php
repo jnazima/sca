@@ -22,8 +22,9 @@ Autenticando Usu&aacute;rio, aguarde...
 
 <?php
 
-	$login = $_POST['login'];
-	$senha = $_POST['senha'];
+	$login = addslashes(htmlentities(utf8_decode(trim($_POST['login'])), ENT_QUOTES));
+	$senha = addslashes(htmlentities(utf8_decode(trim($_POST['senha'])), ENT_QUOTES));
+
 	
 //aqui verifica o nome de login do usuario se tiver em branco ele mostar esta mensagem
 
